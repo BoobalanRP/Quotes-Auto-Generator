@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   font-family:cursive;
+    background-color: rgb(26, 26, 26);
+}
+.quotes p{
+    font-size: 25px;
+    color:rgb(255, 219, 234);
+    font-weight: bold;
+    width:700px;
+    text-align: center;
+}
+#generate{
+    padding: 15px 80px;
+    font-size: 20px;
+  background:linear-gradient(rgb(168, 255, 229), rgb(199, 255, 202),rgb(191, 239, 255));
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 50px;
+    position: fixed;
+   margin-left: 200px;
+}
+#generate:hover{
+    border: 1px solid rgb(255, 0, 102);
+    background: rgb(34, 34, 34);
+    color:rgb(255, 0, 72);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
